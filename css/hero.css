@@ -2,10 +2,41 @@
   height: 100vh;
 
   position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero * {
   color: var(--white);
+}
+
+.hero > div {
+  width: 50%;
+}
+
+.hero__section--left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__display {
+  font-size: 100px;
+}
+
+.hero__display--sti {
+  color: var(--yellow-400);
+}
+
+.hero__container-slogan {
+  background-color: rgba(255, 255, 255, 0.75);
+
+  padding: 40px 48px;
+}
+
+.hero__container-slogan * {
+  color: var(--black);
 }
 
 .hero__background-image {
@@ -21,4 +52,6 @@
 
   height: 100%;
   width: 100%;
+
+  filter: brightness(60%) saturate(140%);
 }

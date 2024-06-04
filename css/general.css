@@ -2,6 +2,7 @@
   /* Colors */
   --white: #fff;
   --black: #000;
+  --yellow-400: #fff200;
 }
 
 * {
@@ -11,6 +12,10 @@
 }
 
 body {
+}
+
+.hero {
+  padding: 0 120px;
 }
 
 a,
