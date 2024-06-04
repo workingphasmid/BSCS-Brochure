@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  grid-column: 1/13;
+
+  padding: 24px 0;
+}
+
+header > * {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header * {
+  font-size: 22px;
+}
+
+.header__section--left {
+}
+
+.header__logo {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.header__section--right {
+}
+
+.header__link {
+  padding: 8px 20px;
+}
