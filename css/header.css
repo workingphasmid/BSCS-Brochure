@@ -2,9 +2,12 @@ header {
   display: flex;
   justify-content: space-between;
 
-  grid-column: 1/13;
-
   padding: 24px 0;
+
+  position: absolute;
+  top: 0;
+  left: 120px;
+  right: 120px;
 }
 
 header > * {
