@@ -10,6 +10,8 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+
+  padding: 0 120px;
 }
 
 .faculties .faculties__title h2 {
@@ -17,7 +19,6 @@
 }
 
 .faculties .faculties__title p {
-  width: 900px;
   font-size: 22px;
 }
 
