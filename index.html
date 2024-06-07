@@ -4,158 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computer Science Brochure</title>
-
-    <!-- CSS links -->
-    <link rel="stylesheet" href="./css/general.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
-    <link rel="stylesheet" href="./css/courses.css" />
-    <link rel="stylesheet" href="./css/facilities.css" />
-    <link rel="stylesheet" href="./css/faculty.css" />
-    <link rel="stylesheet" href="./css/End_Credits.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div class="header__section--left">
-        <a href="" class="header__logo--link">
-          <img src="./icons/logo-sti.png" alt="Sti Logo" class="header__logo" />
-        </a>
-        <p class="header__text">STI Calamba</p>
-      </div>
-      <nav class="header__section--right">
-        <a class="header__link">Courses</a>
-        <a class="header__link">Facilities</a>
-        <a class="header__link">Faculty</a>
-      </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg px-5">
+      <a href="#" class="navbar-brand container justify-content-start">
+        <img src="./icons/logo-sti.png" alt="Sti Logo" width="48px" height="48px" />
+        <h5 class="mb-0 text-white">STI Calamba</h5>
+      </a>
 
-    <!-- Hero -->
-    <section class="hero">
-      <div class="hero__section--left">
-        <h1 class="hero__display">Computer Science at <span class="hero__display--sti">STI</span></h1>
-        <div class="hero__container-slogan">
-          <p class="hero__slogan">Slogan</p>
-          <p class="hero__slogan-subtext">Slogan Subtext</p>
-        </div>
+      <div class="navbar-nav">
+        <a class="nav-link p-2 fs-5 text-white" href="#">Courses</a>
+        <a class="nav-link p-2 fs-5 text-white" href="#">Facilities</a>
+        <a class="nav-link p-2 fs-5 text-white" href="#">Faculty</a>
       </div>
-      <div class="hero__section--right">
-        <button class="hero__button">Enroll Now</button>
-      </div>
-      <img src="./images/sti-calamba.jpg" alt="background image" class="hero__background-image" />
-    </section>
+    </nav>
 
-    <!-- Courses -->
-    <section class="courses">
-      <h2 class="courses__title">Courses offered by STI for Future Computer Science Students</h2>
-
-      <ul class="courses__subjects">
-        <li class="courses__subject subject--dsa">
-          <p class="courses__subject-text">Data Structures and Algorithms</p>
-        </li>
-        <li class="courses__subject subject--cp">
-          <p class="courses__subject-text">Computer Programming</p>
-        </li>
-        <li class="courses__subject subject--fwp">
-          <p class="courses__subject-text">Fundamentals of Web Programming</p>
-        </li>
-        <li class="courses__subject courses__others">Others</li>
-      </ul>
-    </section>
-
-    <!-- Facilities -->
-    <div class="facilites">
-      <div class="facilities__title">
-        <h2 class="facilities__title">Facilities</h2>
-        <p>At STI, we provide the learning environment you need to succeed. Our campuses boast modern classroom equipped with the latest technology to enhance your education. Whether you need to practice your skills in specialized labs or unwind in comfortable student lounges, STi offers the facilities to support a well-rounded learning experience.</p>
-      </div>
-
-      <div class="facilities__place">
-        <div class="place">
-          <div class="pic"></div>
-          <div class="text">
-            <h2>Computer Laboratory</h2>
-            <p>STI’s computer labs, equipped with cutting-edge tech and industry software, empower CS students to code, build applications, and solve problems collaboratively.</p>
-          </div>
-        </div>
-        <div class="place">
-          <div class="pic"></div>
-          <div class="text">
-            <h2>Library</h2>
-            <p>Beyond the code, STI’s library offers a rich resource pool of computer science textbooks to fuel your learning journey, ensuring you have the latest knowledge and research at your fingertips.</p>
-          </div>
-        </div>
-        <div class="place">
-          <div class="pic"></div>
-          <div class="text">
-            <h2>Mezzanine</h2>
-            <p>Cracked the code for relaxation? Unwind after a long session in the dedicated mezzanine area, offering comfortable spaces for students to socialize and recharge.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Faculty -->
-    <div class="faculties">
-      <div class="faculties__title">
-        <h2>Faculty</h2>
-        <p>At STI, your computer science education is guided by industry experts. The faculty boasts a unique blend of academic rigor and real-world experience, bringing the latest trends and technologies into the classroom. Driven by a passion to equip students with the skills to excel as programmers and problem-solvers, the faculty rovides personalized guidance and fosters a vibrant learning atmosphere.</p>
-      </div>
-
-      <div class="faculties__professor">
-        <img src="./images/Fac1 2.png" alt="" />
-        <div class="text">
-          <h2>Philip Daludado</h2>
-          <div class="intro">
-            <p>A web programming instructor that equips students with the skills to design and build interactive experiences for the web.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="faculties__professor_2">
-        <div class="text">
-          <h2>Philip Daludado</h2>
-          <div class="intro">
-            <p>A web programming instructor that equips students with the skills to design and build interactive experiences for the web.</p>
-          </div>
-        </div>
-        <img src="./images/Fac1 3.png" alt="" />
-      </div>
-
-      <div class="faculties__professor">
-        <img src="./images/Fac1 2.png" alt="" />
-        <div class="text">
-          <h2>Euncis Palmones</h2>
-          <div class="intro">
-            <p>An information management instructor that empowers students to navigate the ever-growing information landscape, teaching them to organize, analyze, and leverage data effectively.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- End Credits -->
-    <div class="credits">
-      <div class="names">
-        <p>Cerezo, Aeron Paulle</p>
-        <p>Garais, Rommel</p>
-        <p>Mantal, Paul Kennedy</p>
-        <p>Mercader,Sean Cliffe</p>
-        <p>Retes, Charles Renan</p>
-        <p>Salvador, Lei Xyres</p>
-        <p>Tirado Eiamaine</p>
-      </div>
-      <div class="line"></div>
-      <div class="brand_cookies">
-        <div class="brand">
-          <h2>STI Calamba</h2>
-        </div>
-        <div class="cookies">
-          <span>Privacy Policy</span>
-          <span>Terms of Service</span>
-          <span>Cookies</span>
-        </div>
-      </div>
-      <div class="Allrights">2024 STI. All rights reserved.</div>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
