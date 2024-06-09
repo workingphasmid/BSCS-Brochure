@@ -57,8 +57,16 @@
 }
 
 /* Facilities */
+#facilities {
+  background-color: #0072bc;
+}
+
 .dc {
   text-align: justify;
+}
+
+.card {
+  border: none;
 }
 
 .card-body {
@@ -80,6 +88,14 @@
 #faculty > p,
 .faculty-person {
   padding-inline: 120px;
+}
+
+.fp-grey {
+  background-color: #ebebeb;
+}
+
+.fp-blue {
+  background-color: #0072bc;
 }
 
 .faculty-person img {
