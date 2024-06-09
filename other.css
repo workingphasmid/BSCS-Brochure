@@ -9,15 +9,14 @@
   background-image: url(./images/sti-calamba.jpg);
   background-size: cover;
   background-position: center;
-
-  display: flex;
-  align-items: center;
-
-  padding: 0 120px;
 }
 
 @media screen and (width >= 992px) {
   .navbar {
     padding: 0.5rem 120px;
+  }
+
+  .background-hero {
+    padding: 0 120px;
   }
 }
