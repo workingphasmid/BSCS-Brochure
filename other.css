@@ -2,6 +2,10 @@ body {
 }
 
 /* Nav */
+.navbar {
+  padding-inline: 120px;
+}
+
 .nav-link {
   color: var(--bs-navbar-active-color);
 }
@@ -9,6 +13,15 @@ body {
 /* Hero */
 .hero {
   height: 100vh;
+}
+
+.hero > .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
 }
 
 .hero-background-img {
@@ -23,14 +36,19 @@ body {
   inset: 0;
 
   z-index: -1;
+
+  padding-inline: 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .navbar {
     padding: var(--bs-navbar-padding-y);
   }
 
   .nav-link {
     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  }
+
+  .hero {
   }
 }
