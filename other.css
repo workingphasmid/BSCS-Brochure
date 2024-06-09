@@ -6,6 +6,10 @@
   padding-inline: 120px;
 }
 
+.row > * {
+  padding-inline: 0;
+}
+
 /* Nav */
 
 .nav-link {
@@ -67,6 +71,27 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* Faculty */
+#faculty {
+  padding-inline: 0;
+}
+
+#faculty > p,
+.faculty-person {
+  padding-inline: 120px;
+}
+
+.faculty-person img {
+  width: 100%;
+}
+
+.faculty-dc {
+  height: fit-content;
+  border: 3px solid black;
+}
+
+/* Responsive */
 
 @media (max-width: 768px) {
   .nav-link {
