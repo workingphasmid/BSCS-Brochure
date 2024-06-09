@@ -1,3 +1,6 @@
+body {
+}
+
 /* Nav */
 .nav-link {
   color: var(--bs-navbar-active-color);
@@ -5,15 +8,21 @@
 
 /* Hero */
 .hero {
+  height: 100vh;
 }
 
 .hero-background-img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
   object-fit: cover;
 
   filter: brightness(0.6);
+
+  position: absolute;
+  inset: 0;
+
+  z-index: -1;
 }
 
 @media (max-width: 576px) {
