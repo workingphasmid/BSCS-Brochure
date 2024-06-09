@@ -23,9 +23,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav gap-3 ms-auto">
-            <a href="" class="nav-link">Courses</a>
-            <a href="" class="nav-link">Facilities</a>
-            <a href="" class="nav-link">Faculty</a>
+            <a href="#courses" class="nav-link">Courses</a>
+            <a href="#facilities" class="nav-link">Facilities</a>
+            <a href="#faculty" class="nav-link">Faculty</a>
           </div>
         </div>
       </div>
@@ -51,9 +51,9 @@
       <div class="accordion" id="accordion">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Data Structure and Algorightms</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Data Structure and Algorightms</button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
             <div class="accordion-body">This foundational course explores how to organize, store, retrieve, and manipulate data efficiently. You'll learn about different data structures (like arrays, linked lists, trees, graphs) and algorithms (sorting, searching, hashing) used to solve computational problems.</div>
           </div>
         </div>
@@ -75,6 +75,35 @@
         </div>
       </div>
       <a class="col link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary text-center" href="#">Others</a>
+    </section>
+
+    <!-- Facilities -->
+    <section id="facilities" class="container-fluid py-4 row gap-4 row">
+      <h2 class="text-center m-0 col-12">Facilities</h2>
+      <p class="col-12 dc">At STI, we provide the learning environment you need to succeed. Our campuses boast modern classroom equipped with the latest technology to enhance your education. Whether you need to practice your skills in specialized labs or unwind in comfortable student lounges, STi offers the facilities to support a well-rounded learning experience.</p>
+      <div class="card-group gap-3 col-12">
+        <div class="card">
+          <img src="./images/sti-calamba.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Computer Laboratory</h5>
+            <p class="card-text">STI’s computer labs, equipped with cutting-edge tech and industry software, empower CS students to code, build applications, and solve problems collaboratively.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/sti-calamba.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Library</h5>
+            <p class="card-text">Beyond the code, STI’s library offers a rich resource pool of computer science textbooks to fuel your learning journey, ensuring you have the latest knowledge and research at your fingertips.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/sti-calamba.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Mezzanine</h5>
+            <p class="card-text">Cracked the code for relaxation? Unwind after a long session in the dedicated mezzanine area, offering comfortable spaces for students to socialize and recharge.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
