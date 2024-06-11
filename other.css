@@ -5,5 +5,12 @@
   background-color: #ebebeb;
 }
 
-.faculty-dc {
+.vr {
+  width: 2px;
+  opacity: 0.6;
+}
+
+.footer-line {
+  height: 2px;
+  background-color: black;
 }
