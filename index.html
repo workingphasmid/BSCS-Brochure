@@ -9,11 +9,11 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="./other.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- Header -->
     <header class="fixed-top container-lg">
-      <nav class="navbar navbar-expand-sm nav-underline" data-bs-theme="dark">
-        <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-sm nav-underline" data-bs-theme="dark" id="navbar">
+        <a class="navbar-brand" href="./index.html">
           <img src="./icons/logo-sti.png" alt="" width="32px" height="32px" />
           STI Calamba
         </a>
@@ -32,6 +32,7 @@
     </header>
 
     <!-- Hero -->
+
     <section id="hero" class="p-0 position-relative d-flex justify-content-center align-items-center" style="height: 100vh">
       <div class="container-lg">
         <div class="row m-0 g-5 g-md-0">
