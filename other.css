@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+  .display-1 {
+    font-size: calc(4rem + 4.5vw);
+  }
 }
 
 .card {
