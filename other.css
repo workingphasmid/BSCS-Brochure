@@ -17,3 +17,13 @@
   height: 2px;
   background-color: black;
 }
+
+.bg {
+  background-color: #ffc107;
+
+  transition: all 1s;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.3);
+}
