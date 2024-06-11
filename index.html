@@ -11,11 +11,11 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="fixed-top container">
+    <header class="fixed-top container-lg">
       <nav class="navbar navbar-expand-sm nav-underline" data-bs-theme="dark">
         <a class="navbar-brand" href="#">
           <img src="./icons/logo-sti.png" alt="" width="32px" height="32px" />
-          <span class="fw-bold"> STI Calamba </span>
+          <span class=""> STI Calamba </span>
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,21 +32,23 @@
     </header>
 
     <!-- Hero -->
-    <section id="hero" class="container-fluid row position-relative">
-      <div class="container-fluid col gap-5">
-        <h1 class="display-1 fw-bold text-white">Computer Science at <span class="text-warning">STI</span></h1>
-        <div class="p-4 container-fluid container-slogan">
-          <span>From passion to profession. Build a future in tech with STI’s in-demand Computer Science Program.</span>
+    <section id="hero" class="container-fluid p-0 position-relative d-flex justify-content-center align-items-center" style="height: 100vh">
+      <div class="row m-0 container-lg">
+        <div class="col gap-5">
+          <h1 class="display-1 fw-bold text-white">Computer Science at <span class="text-warning">STI</span></h1>
+          <div class="p-4 d-none d-md-block">
+            <span>From passion to profession. Build a future in tech with STI’s in-demand Computer Science Program.</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-md-center">
+          <button class="btn btn-primary btn-lg px-5 py-2">Enroll Now</button>
         </div>
       </div>
-      <div class="container-fluid col">
-        <button class="btn btn-primary btn-lg px-5 py-2">Enroll Now</button>
-      </div>
-      <img src="./images/sti-calamba.jpg" alt="" class="hero-background-img" />
+      <img src="./images/sti-calamba.jpg" alt="" class="position-absolute z-n1 p-0 h-100 w-100 object-fit-cover" style="inset: 0; filter: brightness(0.8)" />
     </section>
 
     <!-- Courses -->
-    <section id="courses" class="container-fluid row py-5 gap-4">
+    <!-- <section id="courses" class="container-fluid row py-5 gap-4">
       <h2 class="col-12 text-center">Courses offered by STI for Future Computer Science Students</h2>
       <div class="accordion" id="accordion">
         <div class="accordion-item">
@@ -75,10 +77,10 @@
         </div>
       </div>
       <a class="col link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-secondary text-center" href="#">Others</a>
-    </section>
+    </section> -->
 
     <!-- Facilities -->
-    <section id="facilities" class="container-fluid py-5 row gap-4 row text-white">
+    <!-- <section id="facilities" class="container-fluid py-5 row gap-4 row text-white">
       <h2 class="text-center m-0 col-12">Facilities</h2>
       <p class="col-12 dc">At STI, we provide the learning environment you need to succeed. Our campuses boast modern classroom equipped with the latest technology to enhance your education. Whether you need to practice your skills in specialized labs or unwind in comfortable student lounges, STi offers the facilities to support a well-rounded learning experience.</p>
       <div class="card-group gap-3 col-12">
@@ -104,10 +106,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Faculty -->
-    <section id="faculty" class="container-fluid py-5 row gap-4 row">
+    <!-- <section id="faculty" class="container-fluid py-5 row gap-4 row">
       <h2 class="text-center m-0 col-12">Faculty</h2>
       <p class="col-12 dc">At STI, your computer science education is guided by industry experts. The faculty boasts a unique blend of academic rigor and real-world experience, bringing the latest trends and technologies into the classroom. Driven by a passion to equip students with the skills to excel as programmers and problem-solvers, the faculty rovides personalized guidance and fosters a vibrant learning atmosphere.</p>
       <div class="gap-3 col-12 faculty-group">
@@ -145,8 +147,8 @@
           </div>
         </div>
       </div>
-    </section>
-
+    </section> -->
+    <!-- 
     <footer id="footer" class="container-fluid row gap-4 py-5">
       <div class="col-12 d-flex justify-content-between">
         <span>Cerezo, Aeron Paulle</span>
@@ -176,7 +178,7 @@
         </div>
       </div>
       <div class="col-12"><small>2024 STI. All rights reserved.</small></div>
-    </footer>
+    </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
