@@ -1,13 +1,6 @@
 @media screen and (max-width: 768px) {
-  #card-group .card > .row {
-    height: 200px;
-  }
-
-  .card-container-image {
-    height: 100%;
-  }
 }
 
-.card-container-image {
-  max-height: 380px;
+.card {
+  background-color: #ebebeb;
 }
